@@ -1,0 +1,235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\militarydistrictsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|solutionrelative:militarydistrictsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|c:\\\u0440\u043F\u043C\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\militarydistrictsystem\\militarydistrictsystem\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|solutionrelative:militarydistrictsystem\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\militarydistrictsystem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|solutionrelative:militarydistrictsystem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\militarydistrictsystem\\addeditpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|solutionrelative:militarydistrictsystem\\addeditpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\militarydistrictsystem\\soldierypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|solutionrelative:militarydistrictsystem\\soldierypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|c:\\\u0440\u043F\u043C\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\militarydistrictsystem\\militarydistrictsystem\\\u043B\u0438\u0447\u043D\u044B\u0439_\u0441\u043E\u0441\u0442\u0430\u0432.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|solutionrelative:militarydistrictsystem\\\u043B\u0438\u0447\u043D\u044B\u0439_\u0441\u043E\u0441\u0442\u0430\u0432.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\militarydistrictsystem\\soldierypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|solutionrelative:militarydistrictsystem\\soldierypage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\militarydistrictsystem\\districtmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|solutionrelative:militarydistrictsystem\\districtmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\militarydistrictsystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|solutionrelative:militarydistrictsystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\militarydistrictsystem\\districtmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|solutionrelative:militarydistrictsystem\\districtmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\militarydistrictsystem\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB294C7C-6AD2-4A39-9FB6-4A33E3D8DA4B}|MilitaryDistrictSystem\\MilitaryDistrictSystem.csproj|solutionrelative:militarydistrictsystem\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SoldieryPage.xaml.cs",
+              "DocumentMoniker": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\SoldieryPage.xaml.cs",
+              "RelativeDocumentMoniker": "MilitaryDistrictSystem\\SoldieryPage.xaml.cs",
+              "ToolTip": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\SoldieryPage.xaml.cs",
+              "RelativeToolTip": "MilitaryDistrictSystem\\SoldieryPage.xaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowHYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:17:26.145Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "\u041B\u0438\u0447\u043D\u044B\u0439_\u0441\u043E\u0441\u0442\u0430\u0432.cs",
+              "DocumentMoniker": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\\u041B\u0438\u0447\u043D\u044B\u0439_\u0441\u043E\u0441\u0442\u0430\u0432.cs",
+              "RelativeDocumentMoniker": "MilitaryDistrictSystem\\\u041B\u0438\u0447\u043D\u044B\u0439_\u0441\u043E\u0441\u0442\u0430\u0432.cs",
+              "ToolTip": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\\u041B\u0438\u0447\u043D\u044B\u0439_\u0441\u043E\u0441\u0442\u0430\u0432.cs",
+              "RelativeToolTip": "MilitaryDistrictSystem\\\u041B\u0438\u0447\u043D\u044B\u0439_\u0441\u043E\u0441\u0442\u0430\u0432.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T16:53:47.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddEditPage.xaml.cs",
+              "DocumentMoniker": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\AddEditPage.xaml.cs",
+              "RelativeDocumentMoniker": "MilitaryDistrictSystem\\AddEditPage.xaml.cs",
+              "ToolTip": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\AddEditPage.xaml.cs",
+              "RelativeToolTip": "MilitaryDistrictSystem\\AddEditPage.xaml.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAiwJAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T20:39:28.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DistrictModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\DistrictModel.edmx",
+              "RelativeDocumentMoniker": "MilitaryDistrictSystem\\DistrictModel.edmx",
+              "ToolTip": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\DistrictModel.edmx [Diagram1]",
+              "RelativeToolTip": "MilitaryDistrictSystem\\DistrictModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-07T07:54:56.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddEditPage.xaml",
+              "DocumentMoniker": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\AddEditPage.xaml",
+              "RelativeDocumentMoniker": "MilitaryDistrictSystem\\AddEditPage.xaml",
+              "ToolTip": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\AddEditPage.xaml",
+              "RelativeToolTip": "MilitaryDistrictSystem\\AddEditPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T06:17:33.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SoldieryPage.xaml",
+              "DocumentMoniker": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\SoldieryPage.xaml",
+              "RelativeDocumentMoniker": "MilitaryDistrictSystem\\SoldieryPage.xaml",
+              "ToolTip": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\SoldieryPage.xaml",
+              "RelativeToolTip": "MilitaryDistrictSystem\\SoldieryPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T09:46:11.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DistrictModel.Context.cs",
+              "DocumentMoniker": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\DistrictModel.Context.cs",
+              "RelativeDocumentMoniker": "MilitaryDistrictSystem\\DistrictModel.Context.cs",
+              "ToolTip": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\DistrictModel.Context.cs",
+              "RelativeToolTip": "MilitaryDistrictSystem\\DistrictModel.Context.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:57:06.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\Manager.cs",
+              "RelativeDocumentMoniker": "MilitaryDistrictSystem\\Manager.cs",
+              "ToolTip": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\Manager.cs",
+              "RelativeToolTip": "MilitaryDistrictSystem\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T20:56:58.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\App.xaml",
+              "RelativeDocumentMoniker": "MilitaryDistrictSystem\\App.xaml",
+              "ToolTip": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\App.xaml",
+              "RelativeToolTip": "MilitaryDistrictSystem\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-05T20:45:18.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MilitaryDistrictSystem\\MainWindow.xaml",
+              "ToolTip": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\MainWindow.xaml",
+              "RelativeToolTip": "MilitaryDistrictSystem\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-05T20:28:32.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MilitaryDistrictSystem\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\\u0420\u041F\u041C\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\MilitaryDistrictSystem\\MilitaryDistrictSystem\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MilitaryDistrictSystem\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvzEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T20:28:30.184Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

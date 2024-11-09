@@ -1,0 +1,99 @@
+﻿<Page x:Class="MilitaryDistrictSystem.SoldieryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MilitaryDistrictSystem"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SoldieryPage" FontFamily="Century" IsVisibleChanged="Page_IsVisibleChanged">
+    <Page.Background>
+        <ImageBrush ImageSource="Res\fon1.jpg" Stretch="UniformToFill" Opacity="0.6"/>
+    </Page.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right">
+            <TextBlock Name="TBCount" FontSize="20" Height="30"></TextBlock>
+        </StackPanel>
+
+        <WrapPanel Orientation="Horizontal" HorizontalAlignment="Left">
+            <StackPanel Orientation="Horizontal"  Margin="10">
+                <TextBlock Text="Введите для поиска" Grid.Row="1" HorizontalAlignment="Left" TextAlignment="Right" Width="180" FontSize="18" Margin="5"></TextBlock>
+
+                <TextBox Name="TBoxSearch" TextChanged="TBoxSearch_TextChanged" Grid.Row="1"
+                    Width="290" FontSize="15" Margin="5" TextAlignment="Left"></TextBox>
+                
+            </StackPanel>
+            <StackPanel Grid.Row="1" Orientation="Horizontal"  HorizontalAlignment="Left"  Margin="10">
+                <ComboBox Name="SortCombo" SelectionChanged="SortCombo_SelectionChanged" HorizontalAlignment="Left"  Width="210" Height="25" FontSize="15" Margin="5">
+                    <TextBlock Text="Все"></TextBlock>
+                    <TextBlock Text="Возраст по возрастанию"></TextBlock>
+                    <TextBlock Text="Возраст по убыванию"></TextBlock>
+                </ComboBox>
+                <StackPanel Orientation="Vertical"  Margin="10">
+                    <ComboBox Name="FilterCombo" SelectionChanged="FilterCombo_SelectionChanged" HorizontalAlignment="Left" Width="120" FontSize="15" Margin="5">
+                        <TextBlock Text="Все"></TextBlock>
+                        <TextBlock Text="Майор"></TextBlock>
+                        <TextBlock Text="Командир"></TextBlock>
+                        <TextBlock Text="Прапорщик"></TextBlock>
+                        <TextBlock Text="Лейтенант"></TextBlock>
+                        <TextBlock Text="Рядовой"></TextBlock>
+                        <TextBlock Text="Сержант"></TextBlock>
+                        <TextBlock Text="Ефрейтор"></TextBlock>
+                    </ComboBox>
+                </StackPanel>
+                <Button Content="Добавить служащего" Name="AddButton" Grid.Row="0" Click="AddButton_Click"
+        HorizontalAlignment="Right"  VerticalAlignment="Bottom"  Width="200"></Button>
+            </StackPanel>
+
+        </WrapPanel>
+        
+        <ListView Name="SoldieryListView" Grid.Row="2">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Image Width="100" Grid.Column="0" Stretch="Uniform"  HorizontalAlignment="Center" VerticalAlignment="Center" Grid.RowSpan="6">
+                            <Image.Source>
+                                <Binding Path="Фото">
+                                    <Binding.TargetNullValue>
+                                        <ImageSource>
+                                            Res/picture.jpg
+                                        </ImageSource>
+                                    </Binding.TargetNullValue>
+                                </Binding>
+                            </Image.Source>
+                        </Image>
+
+                        <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="0">
+                            <TextBlock Text="{Binding Фамилия_}" FontSize="15" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock Text="{Binding Имя_, StringFormat={}  {0:0}}" FontSize="15"></TextBlock>
+                            <TextBlock Text="{Binding Отчество_, StringFormat={}  {0:0}}" FontSize="15"></TextBlock>
+                        </StackPanel>
+                        <TextBlock Text="{Binding Дата_рождения, StringFormat=dd.MM.yyyy}" Grid.Column="1" Grid.Row="1" FontSize="15"></TextBlock>
+                        <TextBlock Text="{Binding Должность_, StringFormat={}Должность: {0:0}}" Grid.Column="1" Grid.Row="2" FontSize="15"></TextBlock>
+                        <TextBlock Text="{Binding RotaString, StringFormat={}Рота: {0:0}}" Grid.Column="1" Grid.Row="3" FontSize="15"></TextBlock>
+                        <TextBlock Text="{Binding NumChast, StringFormat={}Номер части: {0:0}}" Grid.Column="1" Grid.Row="4" FontSize="15"></TextBlock>
+                        <Button Name="EditBtn" Content="Редактировать" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Left"  Click="EditBtn_Click"></Button>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>

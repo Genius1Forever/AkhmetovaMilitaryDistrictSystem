@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище MilitaryDistrictSystemModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Вид войск">
+    <Key>
+      <PropertyRef Name="Код войска" />
+    </Key>
+    <Property Name="Код войска" Type="int" Nullable="false" />
+    <Property Name="Название войска" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Личный состав">
+    <Key>
+      <PropertyRef Name="Код состава" />
+    </Key>
+    <Property Name="Код состава" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Фамилия " Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Имя " Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Отчество " Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Код роты" Type="int" Nullable="false" />
+    <Property Name="Должность " Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Дата рождения" Type="date" Nullable="false" />
+    <Property Name="Год поступления на службу" Type="int" Nullable="false" />
+    <Property Name="Выслуга лет" Type="int" Nullable="false" />
+    <Property Name="Награды " Type="nvarchar" MaxLength="100" />
+    <Property Name="Участие в военных мероприятиях" Type="nvarchar" MaxLength="100" />
+    <Property Name="Фото" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Места дислокации">
+    <Key>
+      <PropertyRef Name="Код дислокации" />
+    </Key>
+    <Property Name="Код дислокации" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Страна " Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Город " Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Адрес " Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Занимаемая площадь" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Роты">
+    <Key>
+      <PropertyRef Name="Код роты" />
+    </Key>
+    <Property Name="Код роты" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Название роты" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Количество служащих" Type="int" Nullable="false" />
+    <Property Name="Номер части" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Части">
+    <Key>
+      <PropertyRef Name="Номер части" />
+    </Key>
+    <Property Name="Номер части" Type="int" Nullable="false" />
+    <Property Name="Название части" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Код дислокации" Type="int" Nullable="false" />
+    <Property Name="Код войска" Type="int" Nullable="false" />
+    <Property Name="Количество рот" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Личный состав_Роты">
+    <End Role="Роты" Type="Self.Роты" Multiplicity="1" />
+    <End Role="Личный состав" Type="Self.Личный состав" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Роты">
+        <PropertyRef Name="Код роты" />
+      </Principal>
+      <Dependent Role="Личный состав">
+        <PropertyRef Name="Код роты" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Роты_Части">
+    <End Role="Части" Type="Self.Части" Multiplicity="1" />
+    <End Role="Роты" Type="Self.Роты" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Части">
+        <PropertyRef Name="Номер части" />
+      </Principal>
+      <Dependent Role="Роты">
+        <PropertyRef Name="Номер части" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Части_Вид войск">
+    <End Role="Вид войск" Type="Self.Вид войск" Multiplicity="1" />
+    <End Role="Части" Type="Self.Части" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Вид войск">
+        <PropertyRef Name="Код войска" />
+      </Principal>
+      <Dependent Role="Части">
+        <PropertyRef Name="Код войска" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Части_Места дислокации">
+    <End Role="Места дислокации" Type="Self.Места дислокации" Multiplicity="1" />
+    <End Role="Части" Type="Self.Части" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Места дислокации">
+        <PropertyRef Name="Код дислокации" />
+      </Principal>
+      <Dependent Role="Части">
+        <PropertyRef Name="Код дислокации" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище MilitaryDistrictSystemModelContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Вид войск" EntityType="Self.Вид войск" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Личный состав" EntityType="Self.Личный состав" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Места дислокации" EntityType="Self.Места дислокации" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Роты" EntityType="Self.Роты" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Части" EntityType="Self.Части" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Личный состав_Роты" Association="Self.FK_Личный состав_Роты">
+      <End Role="Роты" EntitySet="Роты" />
+      <End Role="Личный состав" EntitySet="Личный состав" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Роты_Части" Association="Self.FK_Роты_Части">
+      <End Role="Части" EntitySet="Части" />
+      <End Role="Роты" EntitySet="Роты" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Части_Вид войск" Association="Self.FK_Части_Вид войск">
+      <End Role="Вид войск" EntitySet="Вид войск" />
+      <End Role="Части" EntitySet="Части" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Части_Места дислокации" Association="Self.FK_Части_Места дислокации">
+      <End Role="Места дислокации" EntitySet="Места дислокации" />
+      <End Role="Части" EntitySet="Части" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

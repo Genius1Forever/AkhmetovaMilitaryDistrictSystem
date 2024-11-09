@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище MilitaryDistrictSystemModelContainer" CdmEntityContainer="MilitaryDistrictSystemEntities">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="MilitaryDistrictSystemModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Вид_войск">
+      <EntityTypeMapping TypeName="MilitaryDistrictSystemModel.Вид_войск">
+        <MappingFragment StoreEntitySet="Вид войск">
+          <ScalarProperty Name="Код_войска" ColumnName="Код войска" />
+          <ScalarProperty Name="Название_войска" ColumnName="Название войска" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Личный_состав">
+      <EntityTypeMapping TypeName="MilitaryDistrictSystemModel.Личный_состав">
+        <MappingFragment StoreEntitySet="Личный состав">
+          <ScalarProperty Name="Код_состава" ColumnName="Код состава" />
+          <ScalarProperty Name="Фамилия_" ColumnName="Фамилия " />
+          <ScalarProperty Name="Имя_" ColumnName="Имя " />
+          <ScalarProperty Name="Отчество_" ColumnName="Отчество " />
+          <ScalarProperty Name="Код_роты" ColumnName="Код роты" />
+          <ScalarProperty Name="Должность_" ColumnName="Должность " />
+          <ScalarProperty Name="Дата_рождения" ColumnName="Дата рождения" />
+          <ScalarProperty Name="Год_поступления_на_службу" ColumnName="Год поступления на службу" />
+          <ScalarProperty Name="Выслуга_лет" ColumnName="Выслуга лет" />
+          <ScalarProperty Name="Награды_" ColumnName="Награды " />
+          <ScalarProperty Name="Участие_в_военных_мероприятиях" ColumnName="Участие в военных мероприятиях" />
+          <ScalarProperty Name="Фото" ColumnName="Фото" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Места_дислокации">
+      <EntityTypeMapping TypeName="MilitaryDistrictSystemModel.Места_дислокации">
+        <MappingFragment StoreEntitySet="Места дислокации">
+          <ScalarProperty Name="Код_дислокации" ColumnName="Код дислокации" />
+          <ScalarProperty Name="Страна_" ColumnName="Страна " />
+          <ScalarProperty Name="Город_" ColumnName="Город " />
+          <ScalarProperty Name="Адрес_" ColumnName="Адрес " />
+          <ScalarProperty Name="Занимаемая_площадь" ColumnName="Занимаемая площадь" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Роты">
+      <EntityTypeMapping TypeName="MilitaryDistrictSystemModel.Роты">
+        <MappingFragment StoreEntitySet="Роты">
+          <ScalarProperty Name="Код_роты" ColumnName="Код роты" />
+          <ScalarProperty Name="Название_роты" ColumnName="Название роты" />
+          <ScalarProperty Name="Количество_служащих" ColumnName="Количество служащих" />
+          <ScalarProperty Name="Номер_части" ColumnName="Номер части" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Части">
+      <EntityTypeMapping TypeName="MilitaryDistrictSystemModel.Части">
+        <MappingFragment StoreEntitySet="Части">
+          <ScalarProperty Name="Номер_части" ColumnName="Номер части" />
+          <ScalarProperty Name="Название_части" ColumnName="Название части" />
+          <ScalarProperty Name="Код_дислокации" ColumnName="Код дислокации" />
+          <ScalarProperty Name="Код_войска" ColumnName="Код войска" />
+          <ScalarProperty Name="Количество_рот" ColumnName="Количество рот" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
